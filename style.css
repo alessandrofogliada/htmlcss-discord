@@ -8,7 +8,7 @@
 }
 
 
-/* regole header */  --------------------------------------------------------------------------
+/* regole header */  
 
 .titolo{
     text-align: center;
@@ -127,7 +127,7 @@ button.browser{
 }
 
 
-/* regole main */ -----------------------------------------------------------------------------------------
+/* regole main */ 
 
 main{
     width: 100%;
@@ -160,7 +160,7 @@ h2{
 }
 
 .containergrigio{
-    background-color: grey;
+    background-color: #f6f6f6;
     width: 100%;
     min-height: 500px;
     display: flex;
@@ -195,12 +195,13 @@ h2{
 
 }
 
-/* seconda parte main */  ----------------------------------------------------------------------------
+/* seconda parte main */ 
 
-.containergrigiogrande {
-    background-color: grey;
+
+.containergrigiogrande{
+    background-color: #f6f6f6;
     width: 100%;
-    min-height: 600px;
+    min-height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,12 +214,26 @@ h2{
     width: 65%;
     height: 500px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-
 }
 
-/* regole del footer */   ----------------------------------------------------------------------------
+.ultimotitolocentrale{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  margin-top: 35px;
+  display: flex;
+}
+
+.paragraflast{
+        margin: 30px 255px 25px;
+        line-height: 20px;
+        font-size: 13px;
+}
+
+
+/* regole del footer */  
 
 .containernero{
     background-color: rgb(41, 36, 36);
