@@ -201,10 +201,11 @@ h2{
 .containergrigiogrande{
     background-color: #f6f6f6;
     width: 100%;
-    min-height: 700px;
+    min-height: 740px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 
@@ -221,19 +222,54 @@ h2{
 .ultimotitolocentrale{
   text-align: center;
   color: rgb(0, 0, 0);
-  font-size: 45px;
+  font-size: 30px;
   margin-top: 35px;
   display: flex;
 }
 
 .paragraflast{
-        margin: 30px 255px 25px;
-        line-height: 20px;
-        font-size: 13px;
+   margin: 10px 90px 0 90px;
+   line-height: 20px;
+   font-size: 13px;
+   text-align: center;
+}
+
+.stelline{
+    width: 350px;
+    height: 40px;
+}
+
+.dowlandendpage {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+
+.domandafinepagina{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button.dowlandpiccolo{
+    background-color: #8ea1e1;
+    color: white;
+    border: none;
+    width: 145px;
+    height: 34px;
+    font-size: 13px;
 }
 
 
+
+
 /* regole del footer */  
+
+.pictureendpage {
+	width: 20px;
+	margin-top: 10px;
+}
 
 .containernero{
     background-color: rgb(41, 36, 36);
@@ -247,29 +283,52 @@ h2{
 
 .colonnarosa{
     background-color: rgb(233, 151, 165);
+    color: white;
     border: black solid 2px;
     width: 25%;
     height: 450px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.testoprincipalefine{
+    margin-right: 150px;
+    color: #6e84d2;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+h4{
+    color: #6e84d2;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.iconfooter{
+    margin-top: 10px;
 }
 
 .colonnaazzurra{
-    background-color: rgb(51, 229, 223);
-    border: white solid 2px;
+    color: white;
     width: 10%;
     height: 450px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 20px;
+    /* Debug */
+    background-color: rgb(51, 229, 223);
+    border: white solid 2px;
+}
 
+.elencocolonninaazzurra{
+    margin-bottom: 10px;
 }
 
 hr{
     font-size: 2px;
+    color: #48567e;
 }
 
 .containernero2{
@@ -299,4 +358,8 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logodiscord{
+	width: 65px;
 }
