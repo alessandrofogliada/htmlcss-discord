@@ -170,13 +170,14 @@ h2{
 
 }
 .rettangoloblu{
-    background-color: rgb(29, 136, 223);
-    border: black solid 2px;
     width: 40%;
     min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* debug
+    background-color: rgb(29, 136, 223);
+    border: black solid 2px; */
 }
 
 .rettangolorosa{
@@ -190,8 +191,8 @@ h2{
     justify-content: center;
     align-items: center;
     /* Debug */
-    background-color:pink;
-    border: black solid 2px;
+    /* background-color:pink;
+    border: black solid 2px; */
 
 }
 
@@ -210,13 +211,14 @@ h2{
 }
 
 .rettangoloverde{
-    background-color:rgb(26, 197, 55);
-    border: black solid 2px;
     width: 65%;
     height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* debug
+    background-color:rgb(26, 197, 55);
+    border: black solid 2px; */
 }
 
 .ultimotitolocentrale{
@@ -282,14 +284,15 @@ button.dowlandpiccolo{
 
 
 .colonnarosa{
-    background-color: rgb(233, 151, 165);
     color: white;
-    border: black solid 2px;
     width: 25%;
     height: 450px;
     display: flex;
     margin-top: 20px;
     flex-direction: column;
+    /* debug
+    background-color: rgb(233, 151, 165);
+    border: black solid 2px; */
 }
 
 .testoprincipalefine{
@@ -318,8 +321,8 @@ h4{
     align-items: baseline;
     margin-top: 20px;
     /* Debug */
-    background-color: rgb(51, 229, 223);
-    border: white solid 2px;
+    /* background-color: rgb(51, 229, 223);
+    border: white solid 2px; */
 }
 
 .elencocolonninaazzurra{
@@ -332,32 +335,33 @@ hr{
 }
 
 .containernero2{
-    background-color:rgb(41, 36, 36);
     width: 100%;
     min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    background-color:rgb(41, 36, 36);
 }
 
 .rettangolofooter {
-background-color: rgb(29, 136, 223);
 width: 65%;
 min-height: 50px;
 display: flex;
 justify-content:space-between;
 align-items: center;
+/* debug */
+/* background-color: rgb(29, 136, 223); */
 }
 
-
-.bottonefooter{
-    background-color: gray;
-    border: black solid 2px;
-    width: 10%;
-    height: 21px;
+.loginfooter{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #8ea1e1;
+    color: white;
+    border-radius: 25px;
+    height: 27px;
+    width: 79px;
 }
 
 .logodiscord{
